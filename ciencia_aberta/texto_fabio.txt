@@ -1,0 +1,14 @@
+Tópicos no texto do Fabio (http://www.ime.usp.br/~kon/papers/ComputacaoBrasilKon2013.pdf):
+
+- Dados abertos:
+-- Histórico: Ciência, Engenharia, Pesquisa
+
+-- Artigos Científicos
+--- Conferências, Publicações, Revisão e Acesso
+--- Alto valor pago por universidades
+--- Exclusão de quem não pode pagar
+
+-- Resultados de Pesquisas
+--- Reprodutibilidade
+--- Artigos Inúteis
+--- Software Livre (pouca ênfase)
