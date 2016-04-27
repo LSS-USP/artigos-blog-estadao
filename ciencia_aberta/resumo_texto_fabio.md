@@ -20,4 +20,6 @@ ciência aberta.
     * Artigos Inúteis
     * Software Livre
     * **Adição:** Dar mais ênfase ao  software livre
-
+* Conclusão
+    * Universidades e agências de fomento começam a apoiar Open Science
+    * Devemos lutar pela universalização do acesso ao conhecimento
