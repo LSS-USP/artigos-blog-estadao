@@ -6,8 +6,8 @@ O fluxo para a submissão do para o blog é:
 
 - Crie uma *issue* e informe a data desejada para publicação
 - Acesse o nosso [waffle](http://waffle.io/LSS-USP/artigos-blog-estadao) e mude o *status* da sua *issue*
-- Crie um *branch*
-- Crie um diretório com o nome do seu artigo (use letras minúsculas e `_` no lugar de espaço)
+- Crie um *branch* com o nome do seu artigo (use letras minúsculas e `_` no lugar de espaço)
+- Crie um diretório com o nome do seu artigo (use o mesmo nome do *branch*)
 - Crie um arquivo `.txt` com o texto inicial do seu artigo
 - Leia várias vezes o que você escreveu
 - Faça um *pull request* de seu *branch* para o *master*
