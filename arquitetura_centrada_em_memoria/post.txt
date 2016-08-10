@@ -1,0 +1,58 @@
+Você já notou que ano após ano os computadores ganham mais desempenho mantendo
+um custo exequível para os usuários do dia a dia? Isto nos leva a pensar sobre
+a forma como os computadores são projetados, em uma rápida analise rapidamente
+notamos que a figura central destes são os processadores (CPU). Vale observar
+que a palavra computador tem um significado mais amplo do que o computador
+domestico (PC, Personal Computer), estamos falando de uma uma forma geral
+(Smartphones, PCs, Servidores, calculadoras, etc). Quando olhamos para 5 ou 10
+anos atras, percebemos como a evolução da capacidade de processamento foi
+colossal. Este comportamento tem se mantido durante vários anos, contudo será
+que este ritmo de desenvolvimento se manterá por muito mais tempo?  As CPUs
+continuaram a ser o centro dos computadores por muito mais tempo? Se não, como
+seria esse novo computador? Como o software livre se encaixaria nesse novo
+contexto?
+
+A pergunta referente a evolução dos processadores pode ser respondida por uma
+lei descrita por Gordon Moore em 1965. Basicamente a lei de Moore afirma que a
+capacidade de processamento dobra a cada ano. Ao analisar tal lei do ponto de
+visita dos elementos físicos utilizados para a construção de processadores,
+especula-se que o limite físico dos mesmos será atingindo em meados de 2020.
+Note que tal limite não significa um futuro catastrófico ou caótico, indica
+simplesmente que as CPUs evoluirão em um ritmo reduzido ao que estamos
+acostumados a acompanhar. Isto traz profundas reflexões sobre a forma de se
+projetar computadores. Nesse contexto, a comunidade cientifica começa a
+discutir uma nova forma de projetar computadores, onde os processadores não
+serão mais o centro do projeto. Estes cederão lugar para as memórias.
+
+Para a segunda pergunta, devemos ter em mente que estamos vivendo em uma era na
+qual a quantidade de dados geradas é imensa. Cada vez mais, as pessoas produzem
+vídeos, imagens e textos em larga escala. Junte isto ao fato de que as memórias
+avançam hoje em um ritmo muito inferior aos dos processadores, fica evidente
+que teremos uma área para ser melhorada. Com base nesta observação, alguns
+pesquisadores preveem uma mudança de foco das CPUs para as memórias, estas
+serão dotadas de uma enorme capacidade de armazenamento e terão características
+de serem não voláteis. Mas afinal, o quer dizer uma memória não volátil?
+Basicamente toda vez que você liga o seu computador este tem que coletar
+informações do seu disco rígido, tal tarefa consome tempo e é realizada toda
+vez que o usuário liga o seu dispositivo. É fácil visualizar um contexto em que
+o seu computador não sofrerá com tal atividade neste novo contexto. Por fim, só
+como exercício, imagine o seu Smartphone com a mesma capacidade de
+armazenamento que o seu computador.
+
+A pergunta remanescente é: Como o software livre se encaixa nesse novo mundo?
+Basicamente é preciso olhar por duas perspectivas: a das comunidades e das
+mudanças. Do ponto de vista das comunidades de software livre, é mais do que
+conhecido a adaptabilidade que estes promovem para atendar novas tendências.
+Tome como exemplo a velocidade na qual a comunidade GNU/Linux responde para
+correções de bugs e evoluções. Junte as características das comunidades
+(responder rápido as tendências, adaptatividade, vanguardismo, dentre outras)
+com esse novo cenário arquitetural podemos vislumbrar um novo universo que essa
+comunidades poderão desbravar. Por fim, ao observar do ponto de vista das mudanças
+arquiteturais dos computadores fica evidente que vários dos softwares que conhecemos
+hoje terão que ser reescritos ou adaptados para esse novo ambiente. Isto colocará
+várias das empresas de software fechado em uma situação na qual elas terão que
+responder mais rápido do que as comunidades de software livres, fato este que
+realimentará a competição. Portanto, mudanças virão! O futuro ainda é nebuloso
+para os computadores, contudo é empolgante pensar nesses novos desafios.
+
+
