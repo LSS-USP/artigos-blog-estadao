@@ -1,0 +1,61 @@
+Você já notou que ano após ano os computadores ganham mais desempenho mantendo
+um custo acessível para os usuários do dia a dia? Isso está relacionado à forma
+com que os computadores são projetados, em particular sua figura central: o
+processador (CPU). Vale lembrar que a palavra computador tem um significado
+mais amplo do que o computador doméstico (PC, Personal Computer): estamos
+falando também sobre smartphones, servidores, calculadoras e até placas de
+vídeo. Quando olhamos para esse universo 5 ou 10 anos atrás, percebemos como a
+evolução da capacidade de processamento foi colossal. Esse comportamento vem se
+mantendo por vários anos, contudo será que esse ritmo de desenvolvimento
+continuará por muito mais tempo? As CPUs continuarão a ser o centro dos
+computadores por muito mais tempo? Se não, como será o computador do futuro?
+
+A evolução dos processadores tem seguido uma lei descrita por Gordon Moore em
+1965. Basicamente, a lei de Moore afirma que a capacidade de processamento de
+uma CPU dobra a cada ano e meio, o que tem sido bastante próximo da realidade
+nas últimas décadas (até porque as empresas procuram ajustar seus ciclos de
+desenvolvimento a esse padrão). No entanto, ao analisar a lei do ponto de vista
+dos elementos físicos utilizados para a construção de processadores,
+especula-se que seu limite físico será atingindo em meados de 2020. Isso não
+significa um futuro catastrófico ou caótico; indica simplesmente que as CPUs
+evoluirão em um ritmo reduzido em relação ao que estamos acostumados a
+acompanhar. Isso, no entanto, traz à tona a necessidade de reflexões sobre a
+forma de se projetar computadores. A comunidade cientifica tem trabalhado sobre
+o tema, propondo sistemas onde os processadores não serão mais o centro do
+projeto: eles cederão esse lugar para as memórias.
+
+Por que essa mudança de foco? Devemos ter em mente que estamos vivendo em uma
+era na qual a quantidade de dados gerados é imensa. Cada vez mais, as pessoas
+produzem vídeos, imagens e textos em larga escala. Informações sobre o mundo
+físico, como temperatura, batimentos cardíacos dos usuários, informações
+geológicas e muitas outras têm sido coletadas e armazenadas, também em larga
+escala. Junte-se a isso o fato de que as memórias avançam hoje em um ritmo
+muito inferior aos dos processadores e fica evidente que temos uma área a ser
+melhorada.
+
+Com base nesta observação, alguns pesquisadores preveem uma mudança de foco das
+CPUs para as memórias: estas serão dotadas de uma enorme capacidade de
+armazenamento e deixarão de ser voláteis. Mas afinal, o quer dizer uma memória
+não volátil? Basicamente, toda vez que você liga o seu computador ele tem que
+coletar informações do seu disco rígido, o que consome tempo significativo.
+Além disso, durante o funcionamento normal, os dados precisam ser
+periodicamente transferidos para o disco, caso contrário são perdidos ao
+desligar a máquina. É fácil imaginar as diversas vantagens de eliminar a
+necessidade do disco e dessa comunicação. Por fim, só como exercício, imagine o
+seu smartphone com a mesma capacidade de armazenamento que o seu computador.
+
+E como o software livre se encaixa nesse novo mundo? É preciso olhar a questão
+por duas perspectivas: a das comunidades e das mudanças. Do ponto de vista da
+comunidade de software livre, é mais do que conhecida a sua capacidade de
+adaptação para atender novas tendências. Tome como exemplo a velocidade com a
+qual a comunidade GNU/Linux responde à descoberta de bugs, novos padrões e
+tecnologias. Juntem-se as características dessa comunidade (resposta rápida,
+adaptatividade, vanguardismo, dentre outras) com esse novo cenário arquitetural
+e pode-se vislumbrar um novo universo que essa comunidades poderão desbravar.
+Ao mesmo tempo, mudanças desse tipo darão origem à necessidade de reescrita ou
+adaptação do software que conhecemos hoje para esse novo ambiente. Isso
+colocará várias das empresas de software fechado em uma situação na qual elas
+terão que responder mais rápido do que a comunidade de software livre, fato
+este que realimentará a competição. Portanto, mudanças virão! O futuro ainda é
+nebuloso para os computadores, contudo é empolgante pensar nesses novos
+desafios.
