@@ -1,8 +1,8 @@
 O rápido
-crescimento dos grandes centros urbanos traz consigo uma grande
+crescimento dos grandes centros urbanos traz consigo uma ampla
 variedade de oportunidades e desafios, afetando diretamente
 as relações sociais, culturais, econômicas e políticas
-que permeiam as atividades humanas. Dentre os principais desafios,
+que permeiam as atividades humanas. Dentre os principais desses desafios,
 destacam-se os problemas comuns presentes nas grandes cidades
 brasileiras, tais como poluição, trânsito, criminalidade e transporte
 público. Assim, é iminente a necessidade de inovação no modelo de
@@ -11,47 +11,47 @@ ações que apoiem o desenvolvimento mais sustentável e inteligente das
 cidades.
 
 Muitas cidades ao redor do mundo estão aproveitando os grandes
-avanços na adoção de tecnologias de informação e comunicação,
+avanços nas tecnologias de informação e comunicação,
 como a Web e os Smartfones, para prover melhores serviços
 aos cidadãos. A adoção de tecnologias de informação integradas à infraestrutura
 existente nas cidades para proporcionar um desenvolvimento mais
-sustentável dos ambientes urbanos caracterizam a formação de Cidades
+sustentável dos ambientes urbanos caracteriza a formação de Cidades
 Inteligentes. Dessa forma, as Cidades Inteligentes reúnem um conjunto de
 tecnologias - como Internet das Coisas, Big Data e Computação em Nuvem -
-que permitem a obtenção de informações para melhor compreensão
+que permitem a obtenção de dados para melhor compreensão
 dos diferentes aspectos da cidade, apoiando a tomada de decisões
 que tragam benefícios à população e ao ambiente urbano.
 
-A adoção de tecnologias no processo de desenvolvimento urbano por si só
-não torna uma cidade mais inteligente. Por outro lado, a inteligência
-se caracteriza pelo investimento sustentável sobre tecnologias **apropriadas**
+A adoção de tecnologias, por si só,
+não torna uma cidade mais inteligente; essa inteligência
+se caracteriza pelo investimento sustentável em tecnologias **apropriadas**
 para melhorar a qualidade de vida da população e por prover o empoderamento
 dos cidadãos sobre a evolução da cidade. Mais do que isso, é muito importante
 que essas tecnologias sejam abertas para que esse empoderamento não seja
 limitado apenas ao uso, mas se expanda para uma participação ativa do
 cidadão na construção, evolução e verificação dos meios utilizados para
-o progresso dos centros urbano. Ressalta-se aqui a importância do
-software livre na construção de Cidades Inteligentes, tanto no âmbito de
+o progresso dos centros urbanos. Ressalta-se aqui a importância do
+software livre e do acesso aberto aos dados na construção de Cidades Inteligentes, tanto no âmbito de
 plataformas que viabilizam a interação das aplicações com os recursos
 físicos da cidade, tais como sensores e atuadores, quanto nos serviços
-disponibilizados para a cidade. Com isso, há uma grande oportunidade
-em colaborações para o compartilhamento das soluções entre cidades,
-além de promover oportunidades comerciais para diversos prestadores
-de serviços que possam desenvolver modelos de negócio inovadores baseadas
-nas tecnologias abertas.
+disponibilizados para a população. Com isso, há uma grande oportunidade
+de colaborações para o compartilhamento das soluções entre cidades,
+além de promover mercados para diversos prestadores
+de serviços que possam desenvolver modelos de negócio inovadores baseados
+em tecnologias abertas.
 
 Nesse sentido, destacam-se projetos
 como o Participa.br [http://www.participa.br/], que promove
 o diálogo e a participação social em políticas públicas no Brasil,
-e projetos como o SmartCitizen [https://smartcitizen.me/] que
-viabilizam o sensoriamento coletivo para obter informações úteis que
-podem ser utilizadas na melhoria dos serviços públicos. Da mesma
+ou como o SmartCitizen [https://smartcitizen.me/], que
+viabilizam o sensoriamento coletivo para obter informações úteis
+para a melhoria dos serviços públicos. Da mesma
 forma, iniciativas de dados abertos promovem o livre acesso, uso e
-compartilhamento dos dados públicos que podem ser processados para
+compartilhamento de informações governamentais que podem ser processadas para
 disponibilização de novos serviços para o cidadão. Por fim, vale
 ressaltar a importância de padrões abertos que possam ser adotados
 e evoluídos colaborativamente, promovendo interoperabilidade e
-dependência de fornecedor.
+independência de fornecedor.
 
 Apesar de várias iniciativas existentes, o caminho para o
 desenvolvimento de Cidades Inteligentes é longo e depende
