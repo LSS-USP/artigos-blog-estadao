@@ -36,7 +36,7 @@ plataformas que viabilizam a interação das aplicações com os recursos
 físicos da cidade, tais como sensores e atuadores, quanto nos serviços
 disponibilizados para a população. Com isso, há uma grande oportunidade
 de colaborações para o compartilhamento das soluções entre cidades,
-além de promover mercados para diversos prestadores
+além da promoção de mercados para diversos prestadores
 de serviços que possam desenvolver modelos de negócio inovadores baseados
 em tecnologias abertas.
 
@@ -44,7 +44,7 @@ Nesse sentido, destacam-se projetos
 como o Participa.br [http://www.participa.br/], que promove
 o diálogo e a participação social em políticas públicas no Brasil,
 ou como o SmartCitizen [https://smartcitizen.me/], que
-viabilizam o sensoriamento coletivo para obter informações úteis
+viabiliza o sensoriamento coletivo para obter informações úteis
 para a melhoria dos serviços públicos. Da mesma
 forma, iniciativas de dados abertos promovem o livre acesso, uso e
 compartilhamento de informações governamentais que podem ser processadas para
