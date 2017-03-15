@@ -1,0 +1,131 @@
+Uma pergunta importante a se fazer é: por que o movimento do hardware livre
+ainda não atingiu a mesma amplitude que o movimento do software livre? A
+resposta para esta pergunta envolve uma série de fatores, contudo um dos princípais
+motivos pode ter sido a relativa lentidão do deselvolvimento do hardware quando
+comparado com a do software.
+
+Andrew Tanenbaum é um dos pesquisadores em ciência da computação mais conhecido
+da atualidade e o mesmo possui diversos livros que auxiliaram na formação de um
+grande número de engenheiros e cientistas no mundo inteiro. Em seu livro
+"Organização estruturada de computadores" o autor aborda aspectos relacionados
+aos computadores antigos e modernos. Em um dos primeiro capítulos de seu livro,
+Tanenbaum convida o leitor para uma reflexão sobre a evolução do hardware e do
+software como duas peças fundamentais e indissociáveis da computação. O autor
+faz uma comparação sobre a evolução de ambas as parte que se assemelha a fabula
+da corrida entre a tartaruga e a lebre. Nesta, o software avança rapidamente
+abrindo enorme distância do desenvolvimento da hardware até chegar em um ponto
+em que a sua evolução decai e ocorre uma troca de posição e o hardware passa a
+evoluir mais rápido. Andrew propõe tal pensamento com base em uma analise
+histórica da evolução da computação. De certa forma, vivemos em um tempo onde
+ambas as áreas estão evoluindo fortemente com uma leve vantagem da parte de
+software. Contudo, é possível observar uma mudança entre a lebre e a tartaruga
+na qual o hardware está evoluindo cada vez mais rápido em um sentido de
+variações de paradigmas, isto é, os dispositivos estão diversificando mais em
+termos de funcionalidade. Neste contexto trazemos a luz as chamadas FPGAs
+(Field Programmable Gate Array, ou Arranjo de Portas Programável em Campo) e a
+sua relação com o universo do software livre.
+
+Em linhas gerais uma FPGA, permite que um único chip assuma diferentes
+característica de forma rápida e confiável. Para exemplificar como se comporta
+uma FPGA pense em um processador como o do seu computador ou o do seu celular
+e note todas as coisas incríveis que ele permite você fazer. Agora imagine uma
+ação complexa como fazer o seu computador processar as imagens advindas da sua
+webcam de tal forma que o mesmo desenhe um chapel sobre a sua cabeça. Tal ação
+pode ser lenta e demorada, uma vez que o seu processador precisa trabalhar muito
+para fazer o que foi solicitado. Agora imagine que você tenha um único chip que
+tem por função fazer o processamento da imagem e adicionar o chapel de forma que
+isto ocorra de forma suave e você não perceba qualquer lentidão. Agora imagine
+que tudo isto é feito no mesmo chip, isto é, o seu processador de proposito
+geral passa a se comportar como um processador totalmente novo com a única
+habilidade de processar a imagem. O exemplo é um pouco extremista, mas é nesta
+ideia de mudar como o seu chip é feito no nível de hardware que se baseia as 
+FPGAs.
+
+Uma pergunta importante a se fazer é: quais benefícios as FPGAs poderiam trazer
+para a sociedade como um todo? Para responder essa pergunta, analisamos a
+perspectiva do engenheiro e do usuário. Para o primeiro, isto permite que o
+projetista de circuito consiga prototipar novos chips e testar sem precisar de
+um laboratório. Além disto empresas menores passam a conseguir entrar em um
+espaço onde as empresas grandes exercem enorme força. Do ponto de vista do
+usuário, significa que o mesmo poderá receber produtos mais baratos com melhor
+desempenho e flexibilidade.
+
+A principal vantagem de se usar FPGA está no fato de que circuitos podem ser
+projetados por meio de uma paradigma chamado  HDL(Hardware Description
+Languages - Linguagem de descrição de hardware). Isto nos faz refletir sobre
+como é o ecossistema de software relacionado a este tipo de dispositivo.
+Infelizmente temos noticias ruins, mas também temos noticias boas. Primeiro a
+noticia ruim: boa parte do desenvolvimento para FPGAs é feito e suportado por
+ferramentas de código fonte fechada que ainda utilizam modelos de licenciamento
+que tiram toda a liberdade do desenvolvedor. Contudo existem noticias boas
+também e é basicamente: o software está chegando em tal área.
+
+--- parte 2 ---
+
+No blog post da semana passada apresentamos as chamadas FPGAs e o uma breve
+relação destas com o universo de software livre (link para o post anterior).
+A discussão em torno do hardware torna-se cada vez mais importante devido a
+diversas polêmicas que surgiram em torno destes. Durante muito tempo
+discutiu-se sobre os perigos do software proprietário referente a liberdade dos
+usuários. A discussão referente ao hardware aberto nunca foi tão profunda como
+agora devido as enormes polêmicas que vem surgindo neste tema. Diversos
+vazamentos feitos pelo wikileaks tornaram possível ao grande público saber que
+vários dos seus dispositivos de hardware vem com falhas de segurança propositais
+para que agencia de segurança possam realizar qualquer tipo de vigilância do
+usuário convencional. Além disto, polêmicas sobre hardware que são usados para
+manter a vida de algumas pessoas (ex.: marca passo) e que não são de livre
+acesso nem mesmo para o próprio usuário tem tornado-se frequente (ref[1]). Por
+fim, vários pesquisadores reconhecidos vem alertando a importância em se ter
+uma arquitetura de hardware aberta onde todos possam ter acesso para criar novos
+produtos baseados neles e realizar auditorias sobre os mesmos.
+
+Infelizmente, o software livres relacionados a produção de hardware ainda
+precisam de mais evoluções e contribuições. Um exemplo disto é o caso das FPGAs
+que tem como principal forma de desenvolvimento o uso de ferramentas
+proprietárias. Tais ferramentas não possuem qualquer auditoria da comunidade e
+também buscam restringir o desenvolvimento para os seus dispositivos para uma
+única ferramenta. Em resposta a este cenário, várias pessoas no mundo partiram
+para a criação de ferramentas livres para suportar o desenvolvimento para FPGAs.
+Dentre eles destacam-se o projeto conduzido por Clifford Wolf que visa fornecer
+parte do ecossistema necessário para o completo desenvolvimento com ferramentas
+livres para FPGA. Clifford dispendeu enorme esforço para criar as suas
+ferramentas, isto inclui longas horas de trabalho realizando a engenharia
+reversa de vários elementos das FPGAs. Tal trabalho é importante para que no
+futuro por vários motivos, dentre os quais: garantir um ecossistema de
+desenvolvimento livre, dar a possibilidade de auditar códigos, encontrar bugs
+críticos rapidamente de forma a evitar prejuízos com hardware e principalmente
+incentivar a pesquisa.
+
+Clifford Wolf não é o único que está trabalhando neste novo universo, o
+pesquisador da universidade de Berkeley David Petterson também está envolvido no
+movimento de se pensar hardware livre. Petterson é famoso, dentre outras coisas,
+pela criação da arquitetura de RISC (grande parte das CPUs modernas usam o
+conceito desenvolvido por ele) e suas pesquisas de alto impacto. Nos últimos
+sete anos o pesquisador da universidade de Berkeley dedicou-se a criação de um
+projeto aberto de uma nova geração de instruções e arquitetura para
+processadores chamada de RISCV. Petterson argumento uma CPU aberta trará
+benefícios para a sociedade em diversos aspectos, dentre eles: maior liberdade
+de pesquisa uma vez que as empresas detém várias patentes e acordos que torna
+a pesquisa mais cara, maior liberdade de auditoria, maior aquecimento do mercado
+uma vez que empresas menores podem tornar-se mais competitivas perante  empresas
+grande e maior avanço do estado da arte (ref[2]).
+
+Por fim, a discussão sobre software e hardware livre toma um aspecto ainda mais
+delicado quando levamos para o campo da saúda e da segurança do individuo. Nos
+últimos anos tem-se discutido sobre o acesso ao código fonte de aplicações que
+estão embarcadas no corpo de um paciente de forma a vida do mesmo. Muitos
+defendem que o paciente deve ter direito a saber exatamente o que está no seu
+corpo e outros advocam que as empresas não conseguiriam se manter em um mercado
+onde tais informações fossem abertas. O fato é que hoje, é preciso discutir onde
+o hardware livre pode encaixar-se neste contexto talvez propondo até soluções
+novas e abertas para toda sociedade.
+
+Os desafios são enormes no que desrespeito o ambiente de desenvolvimento e a
+criação de hardwares livres. Para aqueles que tem interesse em contribuir para
+a sociedade de forma técnica ou filosófica, as discussões e os trabalhos em
+torno do hardware livre estão apenas começando. Existe muita coisa para se
+construir e muita para se ajudar a melhorar, logo um prato cheio para aqueles
+desenvolvedores ávidos por colaborar e resolver problemas.
+
+ref[1]: https://backchannel.com/i-want-to-know-what-code-is-running-inside-my-body-ff9a159da34b#.e2j3bo8ne
+ref[2]: http://research.cs.wisc.edu/multifacet/papers/ieeemicro16_card_isa.pdf
