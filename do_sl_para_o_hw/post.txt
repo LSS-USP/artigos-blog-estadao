@@ -1,0 +1,75 @@
+Em 1983 Richard Stallman teve uma grande frustração ao notar que ele não poderia
+corrigir um problema encontrado no software da impressora da marca Xerox devido
+a um mecânismo que tornava o código da mesma fechada. Tal acontecimento provocou
+uma enorme reflexação no Richard, que por sua vez trouxe diversos temas para
+serem discutidos com a comunidade. Como grande resultado, surgiu todo o
+movimento de software livre que evoluiu muito e que hoje é amplamente conhecido
+no mundo. As motivações que levaram várias pessoas e empresas a adotarem o
+caminho do software livre foram as mais variadas possíveis, mas a grande maioria
+delas tinha como princípal aspecto as questões sociais que afetavam os usuários.
+Recentemente um movimento semelhante tem surgido em resposta aos constantes
+escandalos envolvendo espionagem do governo e das empresas sob o cidadão comum,
+ou o enorme monopólio exercido por algumas empresas de hardware, ou ainda a
+necessidade de simplesmente querer ter o total controle sobre o seu próprio
+dispositivo. Tais motivações veem fundamente cada vez mais o fenômeno do chamado
+hardware livre.
+
+Uma pergunta importante a se fazer é: por que o movimento do hardware livre
+ainda não atingiu a mesma amplitude que o movimento do software livre? A
+resposta para esta pergunta envolve uma série de fatores, contudo um dos princípais
+motivos pode ter sido a relativa lentidão do deselvolvimento do hardware quando
+comparado com a do software. Andrew Tanenbaum faz uma importante reflexão no seu
+livro Organização estruturada de computadores, na qual o mesmo mostra que o desenvolvimento
+de hardware e de software são como uma eterna corrida entre a lebre e a tartaruga
+na qual hora o software faz o papel da lebre hora o hardware. Talvez os últimos
+anos tenham sido mais do que nunca, aqueles em que o software assumiu o papel da
+lebre e avançou vorazmente em diversas áreas. Contudo, é chegada a hora em que
+o hardware parece tomar a posição de lebre onde este está se diversificando como
+nunca.
+
+Hoje é comum notar que diversas empresas estão desenvolvendo diferentes produtos
+de harware na qual os engenheiros podem repensar diversas arquiteturas. Talvez
+um dos casos mais emblemáticos seja os das FPGAS (Field Programmable Gate Array,
+ou Arranjo de Portas Programável em Campo), nas quais permitem que um único chip
+assuma uma caractéristica completamente diferente da anterior com um pequeno tempo
+de desenvolvimento. Para exemplificar como se comporta uma FPGA, pense em um
+processador (como o do seu celuar ou do seu computador) e as sua funcionalidades.
+Tal chip tem a sua estrutura e motivo para existir que não pode ser mudado, contudo
+essa ideia não é valida para as FPGAS uma vez que estas tem um comportamento dinâmico.
+Em um dado momento uma FPGA pode comportar-se como uma CPU normal, contudo alguém
+(ou possívelmente algo) pode resolver mudar o seu comportamento e fazer a mesma
+se comportar como um chip especializado em processar imagens. Esse dinamismo
+permite que novas formas de se criar hardware sejam testadas mais rapidamente
+e entregue ao usuário final em um curto intervalo de tempo.
+
+Outro fator que advoca a favor de tal hardware refere-se a redução de custos em
+se projetar novos dispositivos. Antigamente, somente empresas muito grandes tinham
+a capacidade de projetar e fabricar arquiteturas de hardware novas. Contudo, com
+o advento das FPGAs diversas empresas e até mesmo estudantes ganharam a vantagem
+de poderem pensar em produzir o seu próprio hardware.
+
+Infelizmente esta área está dominada por diversos software proprietários e por
+algumas empresas que não entendem o impacto em se produzir ferramentas livres
+para que os usuários possam utilizar. Infelizmente, o sistema de licenciamento
+com valores abusivos ainda é prática comum neste meio. Contudo, nem tudo está
+perdido! As comunidades de software e hardware livre tem reagido a tal situação
+e feito o que faz de melhor: arregaçar as mangar e resolver o problema. No caso
+especifico das FPGAs existem algumas pessoas que dedicam-se arduamente a tornar
+tal tecnologia disponível. Como exemplo, pode-se citar Clifford Wolf o criador
+de uma ferramenta chamada yosys e icestorm. A primeira ferramenta é um elemento
+fundamental para quem desenvolve para FPGA uma vez que ela faz a tradução de um
+código de alto nível chamado de HDL (Linguagem de descrição de hardware) para
+um de mais baixo nível (note que esta discussão foi amplamente generalizada). A
+segunda ferramenta trata-se do trabalho do Clifford em fazer a engenharia reversa
+de diversas FPGAS.
+
+Indo um pouco mais a fundo na discussão do hardware livre podemos citar o aclamado
+David Patterson (o criador da arquitetura RISC) que defende que já passou da hora
+de existir uma especificação RISC 100% aberta de processadores. Por tal motivo,
+o mesmo criou um grupo chamado RISCV na qual busca-se uma nova geração de processadores
+na qual a especificação é totalmente aberta.
+
+Este novo mundo é muito bem vindo e ainda aguarda por avidos colaboradores,
+além de ser um grande ponto de renovação para o software livre. Vale observar que
+os brasileiros também tem a chance de engajar nesse novo mundo e quem sabe um
+dia conseguir ser um epicentro de produção de software livre voltado para tal área.
