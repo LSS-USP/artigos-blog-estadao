@@ -1,0 +1,65 @@
+A discussão sobre hardware aberto e os softwares livres que interagem com eles
+torna-se cada vez mais relevante devido as diversas polêmicas que surgiram nos
+últimos anos relacionadas a privacidade, vigilância e monopólio. Diversos
+documentos vazados pelo Wikileaks tornaram possível ao grande público saber que
+vários dos seus dispositivos de hardware vem com falhas de segurança propositais
+para que agencia de segurança possam realizar qualquer tipo de vigilância de um
+usuário convencional. Várias empresas também coletam informações dos seus
+usuários via hardware ou software sem deixar claro que isto está acontecendo.
+Além disto, polêmicas sobre dispositivos que são instalados diretamente no corpo
+de pacientes e que não são de livre acesso nem mesmo para o próprio usuário do
+dispositivo tem gerado enormes debates. Por fim, vários pesquisadores
+reconhecidos vem alertando sobre a importância em se ter uma arquitetura de
+hardware aberta na qual todos possam ter acesso para criar novos elementos e
+realizar auditorias sobre os mesmos.
+
+Infelizmente, os softwares livres relacionados a produção de hardware ainda
+precisam de mais evoluções e de contribuidores. Um exemplo disto é o caso das
+FPGAs em que o desenvolvedor é praticamente forçado a utilizar soluções
+proprietárias. Tais ferramentas não possuem qualquer auditoria da comunidade e
+também buscam restringir o desenvolvimento para os seus dispositivos para uma
+única ferramenta como uma forma de monetizar o licenciamento. Em resposta a este
+cenário, algumas pessoas resolveram se organizar para criar ferramentas livres
+para o desenvolvimento focado em FPGAs. Dentre eles destacam-se os projetos
+conduzidos e criados por Clifford Wolf que visa fornecer parte do ecossistema
+necessário para o completo desenvolvimento com ferramentas livres para FPGA.
+Clifford dispendeu enorme esforço para criar as suas ferramentas, isto inclui
+longas horas de trabalho realizando a engenharia reversa de várias FPGAs. Tal
+trabalho é importante para garantir um ecossistema de desenvolvimento livre, dar
+a possibilidade de auditar códigos, encontrar bugs críticos rapidamente de forma
+a evitar prejuízos com hardware e principalmente incentivar a pesquisa. Note que
+o objetivo do Clifford não é construir novas FPGAs e entender a especificação
+delas para possibilitar que ferramentas livres sejam criadas.
+
+Clifford Wolf não é o único que está trabalhando neste contexto, o pesquisador
+da universidade de Berkeley, David Petterson, também está envolvido no
+movimento de se pensar hardware livre. Petterson é famoso, dentre outras coisas,
+pela criação da arquitetura de RISC (grande parte das CPUs modernas usam o
+conceito desenvolvido por ele) e suas pesquisas de alto impacto. Nos últimos
+sete anos o pesquisador de Berkeley dedicou-se na criação da próxima versão da
+arquitetura RISC, o RISCV que dentre enumeras inovações tem como principal o
+fato de ser uma arquitetura aberta. Petterson argumento uma CPU aberta trará
+benefícios para a sociedade em diversos aspectos, dentre eles: maior liberdade
+de pesquisa uma vez que as empresas detém várias patentes e acordos que tornam
+a pesquisa mais cara, maior liberdade de auditoria, maior aquecimento do mercado
+uma vez que empresas menores podem tornar-se mais competitivas perante  empresas
+grande e maior avanço do estado da arte (ref[2]).
+
+Por fim, a discussão sobre software e hardware livre toma um aspecto ainda mais
+delicado quando levado para o campo da saúda e da segurança do individuo. Nos
+últimos anos tem-se discutido sobre o acesso ao código fonte de aplicações que
+estão embarcadas no corpo de um paciente. Muitos defendem que o paciente deve
+ter direito a saber exatamente o que está no seu corpo e outros advocam que as
+empresas não conseguiriam se manter em um mercado onde tais informações fossem
+abertas. O fato é que hoje, é preciso discutir onde o hardware livre pode
+encaixar-se neste contexto propondo até soluções novas e abertas para toda
+sociedade.
+
+Os desafios são enormes no que desrespeito ao ambiente de desenvolvimento e a
+criação de hardwares livres. As discussões e os trabalhos em torno do hardware
+livre estão apenas começando, existe muita coisa para se construir e muita para
+ajudar a melhorar. Portanto, trata-se de um prato cheio para aqueles
+desenvolvedores ávidos por colaborar e resolver problemas.
+
+ref[1]: https://backchannel.com/i-want-to-know-what-code-is-running-inside-my-body-ff9a159da34b#.e2j3bo8ne
+ref[2]: http://research.cs.wisc.edu/multifacet/papers/ieeemicro16_card_isa.pdf
