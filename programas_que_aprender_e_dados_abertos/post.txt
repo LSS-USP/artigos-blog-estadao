@@ -1,0 +1,87 @@
+Atualmente, muito se fala em inteligência artificial e como ela vai
+mudar nossa vida em um curto espaço de tempo. Apesar de alguns exageros,
+programas que fazem uso de inteligência artificial estão cada vez mais presentes
+no nosso dia. O seu email já sabe quais mensagens vão ser inconvenientes para
+você. Assistentes por voz estão cada vez melhores em reconhecer a fala humana
+para cumprir certas tarefas. Carros autônomos também estão cada vez mais perto
+de deixarem de ser um delírio futurista para se tornarem uma realidade
+cotidiana.
+
+Mas como tudo isso funciona ? Existem várias maneiras de fazer um programa agir
+como se fosse inteligente. Entretanto, uma das maneiras que está ganhando cada
+vez mais espaço é fazer com que o programa aprenda a fazer uma tarefa vendo uma
+série de exemplos correlatos, técnica essa chamada de aprendizado de máquina.
+Essa técnica se mostra bastante útil em uma série de problemas de classificação.
+Imagine por exemplo que gostaríamos de dizer se em uma foto existe um passáro ou
+não. Apesar dessa tarefa ser bastante trivial para humanos, para os computadores
+a mesma tem uma complexidade enorme. Primeiro porque os computadores não
+enxergam as imagens da mesma maneira que nós. Uma imagem para um computador é
+uma grande matríx de números. A segunda dificuldade é que como vamos fazer um
+programa que lide com todas as possíveis situações que um passáro pode aparecer
+na tela ? Um pássaro pode aparecer em cada posição possível da tela. Pode ser que
+uma das fotos tenha sido tirada a noite e outra de manhã cedo. E quanto ao
+número de espécies de passáros existentes. Parece que programar manualmente
+todas essas possíveis condições é praticamente impossível. Mas e se ao invés
+disso, mudassemos o foco um pouco. E se ao invés de programar tudo, mostrassemos
+uma grande quantidade de fotos de pássaro para o programa e a cada nova foto
+mostrada ele aprendesse um pouco mais sobre o problema. E se depois disso, 
+o programa conseguir reconhecer sozinho se uma foto tem um pássaro ou não. Parece uma
+abordagem mais fácil de fazer ? Então, é justamente assim que os programas
+baseado em aprendizado de máquina funcionam.
+
+Se a ideia é assim tão simples, existe alguma coisa que impede que vejamos cada
+vez mais e mais aplicações que fazem uso dessa técnica ? O primeiro motivo que
+normalmente vem em mente para muitas pessoas e de que esses algoritmos são
+bastantes complexos de se criar e devem envolver muita matemática por trás. 
+Apesar disso ser verdade, a maioria desses algoritmos já estão implementados em diversas
+bibliotecas abertas e podem ser facilmente usados por qualquer pessoa que saiba minimamente
+como eles funcionam. Mas se os algoritmos em si não são o problema, o que seria ?
+O primeiro deles surge na hora de "treinar" esses algoritmos. Muitos deles necessitam de um grande
+poder computacional para serem "treinados", ou seja, para que vejam cada exemplo
+do que devem aprender e se adaptar a eles. Normalmente, treinar um programa
+desses pode levar de algumas horas a até mesmo dias. Isso em computadores de
+alto desempenho, que possuem até mesmo processadores gráficos dedicados.
+Entretanto, o verdadeiro ponto crítico está na parte de conseguir os dados para
+esses algoritmo. Vamos imaginar que seja você que queira criar o programa capaz
+de classificar se uma imagem tem pássaros ou não. Quantas imagens de pássaro
+vão ser necessárias para treinar bem o programa ? Apesar do número não ser
+exato, pode-se estimular cerca de 200000 imagens ou mais para treinar o
+algoritmo. Mas nem só essas imagens são necessárias. Precisamos de outras
+imagens que não tenham passáros para que o programa consiga também saber quando
+uma imagem não tenha nenhum pássaro. E ai vão mais 200000 imagens. Ou seja, antes de
+escrever qualquer coisa, vamos precisar de um número absurdo de imagens para
+criar nosso algoritmo. Essa mesma problemática surge para outras aplicações
+também, como fazer análise de sentimento em textos ou até mesmo na classificação
+de notícias em conteúdos distintos.
+
+Se esse problema afeta a criação de aplicações, ele também afeta a pesquisa
+nessa área. Qualquer nova ideia de aplicação vai precisar de
+dados para validá-la. Mas tudo bem, os dados podem ser um problema, mas o que
+impede um pesquisador de gastar um tempo navegando na internet e coletando esses
+dados ? Apesar de ter que gastar uma grande quantidade de tempo fazendo isso, o
+pesquisador de fato pode fazer tal tarefa. Mas e quando sua pesquisa for concluída e
+seus resultados forem divulgados, como será possível reproduzir suas pesquisa ?
+Os revisores podem fazer o mesmo processo de ir buscar os dados manualmente, mas
+e se nesse meio tempo, os dados usados originalmente tiverem sido alterados ou
+até mesmo não estarem mais disponíveis e como consequência disso, alterarem o
+resultado da pesquisa ? O certo então seria o pesquisador divulgar então os
+dados que ele coletou. Entretanto, esses dados podem muitas vezes conter
+licenças que impedem a sua divulgação de forma livre. Mas então o que pode ser
+feito ? O ideal seria concientizar as grandes empresas que manipulam grande
+quantidade de dados a abrirem seus dados, isso claro sem prejudicar os seus usuários.
+Empresas como o Yahoo e a Google já forneceram grandes quantidades de dados para
+que experimentos de aprendizado possam ser feitos. Essas empresas têm
+consciência de que pesquisas nessa área podem afetar diretamente seus produtos.
+Dessa forma, nos, os entusiastas e pesquisadores na área precisamos sempre
+reforçar o importante papel que essas empresas podem fazer em produzir dados
+abertos. Se você é um entusiasta na área e trabalha em uma empresa assim,
+converse com as pessoas responsáveis para abrir o máximo de dados possíveis da
+sua empresa. Dialogue sobre os benefícios que isso pode trazer para a sua
+própria empresa e como essa nova tendência de algoritmos de aprendizado precisam
+desses dados. E caso você seja um pesquisador na área e venha a usar dados de outras
+empresas, tente sempre alertar as mesmas sobre os benefícios de se abrirem tais
+dados ou no pior dos casos, pedir permissão das empresas para que os dados
+coletados possam ser divulgados junto a sua pesquisa. Ao fazer isso, vamos
+propiciar um ambiente mais rico para que novas pesquisas possam ser feitas
+e também para que novos produtos na área possam ser criados e impactem o
+maior número de pessoas possíveis.
