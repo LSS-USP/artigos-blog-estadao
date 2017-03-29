@@ -38,7 +38,7 @@ webcam para desenhar um chapéu sobre a sua cabeça. Essa ação
 pode ser lenta e demorada, uma vez que o seu processador precisa trabalhar muito
 para fazer o que foi solicitado. Agora imagine que você tenha um único chip que
 tem por função apenas fazer o processamento da imagem e adicionar o chapéu de forma que
-isso ocorra de forma suave e você não perceba qualquer lentidão. Imagine ainda
+isso ocorra suavemente e você não perceba qualquer lentidão. Imagine ainda
 que tudo isso é feito no mesmo chip que antes continha a sua CPU, isto é, o seu
 processador de propósito geral passa a se comportar como um processador
 totalmente novo com a única habilidade de processar a imagem. O exemplo é um
