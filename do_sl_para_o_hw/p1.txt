@@ -1,61 +1,83 @@
-Andrew Tanenbaum é um dos pesquisadores em ciência da computação mais conhecido
-da atualidade, o mesmo escreveu diversos livros que auxiliaram na formação de
+Andrew Tanenbaum é um dos pesquisadores em ciência da computação mais conhecidos
+da atualidade, além de ter escrito diversos livros que auxiliaram na formação de
 milhares de engenheiros e cientistas no mundo inteiro. Em seu livro "Organização
-estruturada de computadores" o autor aborda aspectos relacionados aos
+estruturada de computadores", o autor aborda aspectos relacionados aos
 computadores antigos e modernos. Logo nos primeiros capítulos do livro,
-Tanenbaum convida o leitor para uma reflexão sobre a evolução do hardware e do
-software como duas peças fundamentais e indissociáveis da computação. O autor
-faz uma comparação sobre a evolução de ambas as parte que se assemelha a fabula
-da corrida entre a tartaruga e a lebre. Nesta, por vez o software progride 
-rapidamente distanciando-se do desenvolvimento do hardware até chegar em um
-ponto que a sua evolução decai e ocorre uma troca de posição na qual o
-hardware passa a evoluir mais rápido. Andrew propõe tal analogia com base em
-uma analise histórica da evolução da computação. De forma geral, vivemos em um
-momento em que ambas as áreas estão evoluindo fortemente com uma leve vantagem
-da parte de software. Contudo, é possível observar uma mudança entre a lebre e
-a tartaruga na qual o hardware está evoluindo cada vez mais rápido em um sentido
-de variações de paradigmas, isto é, os dispositivos estão diversificando mais em
-termos de funcionalidade. Neste contexto trazemos a luz as chamadas FPGAs
-(Field Programmable Gate Array, ou Arranjo de Portas Programável em Campo) e a
+Tanenbaum convida o leitor a uma reflexão sobre a evolução do hardware e do
+software como as duas peças fundamentais e indissociáveis da computação,
+numa comparação sobre a evolução de ambos que se assemelha à fábula
+da corrida entre a tartaruga e a lebre. Por vezes, o software progride 
+rapidamente, distanciando-se do desenvolvimento do hardware, até chegar a um
+ponto em que sua evolução decai e ocorre uma troca de posição, na qual o
+hardware passa a evoluir mais rápido. Andrew apresenta o tema com base em
+uma análise histórica da evolução da computação.
+
+De forma geral, vivemos em um
+momento em que ambas as áreas estão evoluindo fortemente, com uma leve vantagem
+para o software. Contudo, é possível observar uma mudança entre a lebre e
+a tartaruga na qual é o hardware que está evoluindo cada vez mais rápido:
+o hardware está promovendo grandes mudanças de paradigmas,
+isto é, os dispositivos estão cada vez mais diversificados em
+termos de funcionalidade. Nesse contexto, vale a pena comentar sobre as chamadas FPGAs
+(Field Programmable Gate Array, ou Matriz de Portas Programável em Campo) e a
 sua relação com o universo do software livre.
 
-Em linhas gerais uma FPGA, permite que um único chip assuma diferentes
-característica de forma rápida e confiável. Para exemplificar o comportamento de 
-uma FPGA pense em um processador como o do seu computador ou o do seu celular
-e note todas as coisas incríveis que ele permite você fazer. Agora imagine uma
-ação complexa como fazer o seu computador processar as imagens advindas da sua
-webcam de tal forma que o mesmo desenhe um chapel sobre a sua cabeça. Tal ação
+A característica principal de um processador de uso geral, como o do seu celular
+ou computador, é a versatilidade: ele é capaz de executar um grande número de
+operações diferentes, o que possibilita que os programadores o utilizem para
+desenvolver as mais diversas aplicações. A desvantagem disso é que esse processador
+precisa de um grande número de componentes internos para ter toda essa funcionalidade
+que muitas vezes não são utilizados. Ao mesmo tempo, o número de componentes dedicados
+a cada uma dessas funcionalidades é pequeno. O resultado é que, em alguns casos,
+o processador acaba sendo muito lento para executar algumas operações.
+
+Em linhas gerais, uma FPGA permite que um único chip assuma diferentes
+características de forma rápida e confiável. Imagine, por exemplo, uma
+ação complexa, como fazer o seu computador processar as imagens advindas da sua
+webcam para desenhar um chapéu sobre a sua cabeça. Essa ação
 pode ser lenta e demorada, uma vez que o seu processador precisa trabalhar muito
 para fazer o que foi solicitado. Agora imagine que você tenha um único chip que
-tem por função fazer o processamento da imagem e adicionar o chapel de forma que
-isto ocorra de forma suave e você não perceba qualquer lentidão. Agora imagine
-que tudo isto é feito no mesmo chiap que antes contia a sua CPU, isto é, o seu
-processador de proposito geral passa a se comportar como um processador
+tem por função apenas fazer o processamento da imagem e adicionar o chapéu de forma que
+isso ocorra de forma suave e você não perceba qualquer lentidão. Imagine ainda
+que tudo isso é feito no mesmo chip que antes continha a sua CPU, isto é, o seu
+processador de propósito geral passa a se comportar como um processador
 totalmente novo com a única habilidade de processar a imagem. O exemplo é um
 pouco exagerado e simplista, mas a ideia importante aqui é entender que o
-processador de proposito geral mudou para outro processador totalmente diferente
+processador de propósito geral mudou para outro processador totalmente diferente
 no nível do hardware.
 
-Uma pergunta importante a se fazer é: quais benefícios as FPGAs poderiam trazer
+Uma pergunta relevante a se fazer é: quais benefícios as FPGAs poderiam trazer
 para a sociedade como um todo? Para responder essa pergunta, analisamos a
-perspectiva do engenheiro e do usuário. Para o primeiro, isto permite que o
-projetista de circuito consigam prototipar novos chips e testar sem precisar de
-um laboratório (ele pode fazer isto na casa dele). Além disto empresas menores
-podem conseguir entrar em um espaço dominado por grande empresas. Do ponto de
-vista do usuário, significa que o mesmo poderá receber produtos mais baratos com
+perspectiva do engenheiro e do usuário. Para o primeiro, FPGAs permitem que o
+projetista de circuito consiga prototipar e testar novos chips sem precisar de
+um laboratório; ele pode fazê-lo na casa dele. Além disso, empresas menores
+podem conseguir entrar em um mercado dominado por grande empresas. Do ponto de
+vista do usuário, FPGAs podem permitir o surgimento de produtos mais baratos com
 melhor desempenho e flexibilidade.
 
-A principal vantagem de se usar FPGA está no fato de que circuitos podem ser
-projetados usando linguagem de descrição de hardware (HDL - Hardware
-Description Languages). Isto nos faz refletir sobre como é o ecossistema de
-software relacionado a este tipo de dispositivo. Infelizmente temos noticias
-ruins, mas também temos noticias boas. Primeiro a noticia ruim: boa parte do
-desenvolvimento para FPGAs é feito e suportado por ferramentas proprietárias que
+Uma característica importante das FPGAs é que seus circuitos geralmente são
+projetados usando linguagens de descrição de hardware (HDLs - Hardware
+Description Languages) que, grosso modo, se assemelham às linguagens de programação e que, portanto, dependem de software.
+Isto nos faz refletir sobre o ecossistema de
+software relacionado a esse tipo de dispositivo e, infelizmente, temos notícias
+ruins: boa parte do
+desenvolvimento para FPGAs é feito e suportado por ferramentas fechadas que
 ainda utilizam modelos de licenciamento que tiram toda a liberdade do
-desenvolvedor. Contudo existem noticias boas também, são: o software livre está
-chegando em tal área. Vários pesquisadores mundiadamente reconhecidos, tal qual
+desenvolvedor. Contudo, existem noticias boas também: o software livre está
+chegando a essa área. Vários pesquisadores mundialmente reconhecidos, como
 David Patterson, defendem a importância de se adotar uma posição mais firme rumo
-ao hardware livre e aos software que orbitam este ecossistema. Está é uma
-oportunidade perfeita para aqueles que tem interesse no tema e querem contribuir
-uma vez que várias pessoas no mundo estão começando a trabalhar no assunto além
-de incentivar o ingresso de contribuidores.
+à liberdade tanto quanto ao hardware quanto ao software que habitam esse ecossistema.
+
+No início do movimento pelo software livre, muitos acreditavam que ferramentas
+como editores de texto ou compiladores poderiam ser livres, mas
+que nunca seria possível criar um sistema operacional completo livre. Com o
+surgimento do GNU/Linux, muitos defendiam que ambientes desktop voltados para
+o usuário final estariam além do alcance do software livre. Após projetos
+como KDE e Gnome atingirem a maturidade, especulava-se que dispositivos
+como celulares nunca poderiam ser baseados em software livre. Com a predominância
+do Android e projetos derivados, além do Ubuntu Touch, a mais nova fronteira
+a ser cruzada é a do hardware livre.
+Este é o momento ideal 
+para aqueles que têm interesse no tema e querem contribuir,
+uma vez que várias pessoas no mundo estão começando a trabalhar no assunto e
+incentivando o ingresso de contribuidores.
