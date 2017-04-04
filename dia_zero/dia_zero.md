@@ -47,7 +47,7 @@ destas vulnerabilidades.
 
 Em [um destes estudos](http://dl.acm.org/citation.cfm?id=1920299),
 pesquisadores da Universidade da Pennsylvania mostram que após o lançamento de
-uma nova versão, um software livre demora, em média (MEDIANA), algumas semanas
+uma nova versão, um software livre demora, em média, algumas semanas
 a mais do que um software proprietário para ter a primeira vulnerabilidade
 descoberta e que a taxa em que as vulnerabilidades subsequentes aparecem é
 menor em software livre. Ou seja, o velho argumento de que software de código
@@ -56,16 +56,16 @@ ao código-fonte não só é inválido, como há evidências de que o contrário
 acontece: sistemas proprietários podem estar mais sucetíveis a ataques.
 
 Independente da veracidade das recentes publicações do portal WikiLeaks,
-existem fortes tendências de adoção de software livre em governos ao redor do
-mundo. [O governo dos Estados Unidos acredita que utilizar e contribuir com
-software livre e dados abertos facilita o compartilhamento de dados no governo,
-melhora os serviços e promove novos produtos e
+existem tendências de adoção de software livre em governos ao redor do mundo.
+[O governo dos Estados Unidos acredita que utilizar e contribuir com software
+livre e dados abertos facilita o compartilhamento de dados no governo, melhora
+os serviços e promove novos produtos e
 empregos](https://obamawhitehouse.archives.gov/developers).  Enquanto isso, o
 governo brasileiro insiste em adquirir soluções proprietátias, como anunciado
 pela
 [SLTI](http://link.estadao.com.br/blogs/codigo-aberto/soft-livre-no-governo/),
-ou mesmo a última compra da DataPrev (LINKS), estimulando pessoas em cargos
-técnicos, no governo ou não, a serem apenas usuários passivos de tecnologias
-fechadas ao invés de explorarem seus potenciais criativos estudando,
-modificando, e porque não descobrindo vulnerabilidades importantes em sistemas
-não restritivos (o último seria ilegal em alguns sistemas proprietários).
+estimulando pessoas em cargos técnicos, no governo ou não, a serem apenas
+usuários passivos de tecnologias fechadas ao invés de explorarem seus
+potenciais criativos estudando, modificando, e porque não descobrindo
+vulnerabilidades importantes em sistemas não restritivos (o último seria ilegal
+em alguns sistemas proprietários).
