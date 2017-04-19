@@ -49,18 +49,19 @@ a pesquisa mais cara; maior liberdade de auditoria; maior aquecimento do mercado
 uma vez que empresas menores podem tornar-se mais competitivas perante as grandes;
 e maior avanço do estado da arte (ref[2]).
 
-Por fim, a discussão sobre software e hardware livre toma um aspecto ainda mais
-delicado quando levada para o campo da saúde e da segurança do indivíduo. Nos
-últimos anos, tem-se discutido sobre o acesso ao código fonte de aplicações que
-estão embarcadas no corpo de pacientes. Muitos defendem que o paciente deve
-ter o direito de saber exatamente o que está em seu corpo; outros advogam que as
-empresas não conseguiriam se manter em um mercado onde tais informações fossem
-abertas. O fato é que, hoje, é preciso discutir onde o hardware livre pode
+Essa discussão ganha cores ainda mais fortes quando nos lembramos que o hardware
+computacional está cada vez mais próximo do nosso corpo. Atualmente, já existem
+dispositivos médicos implantados em diversos pacientes; a expectativa, no entanto,
+é que o hardware embarcado em nossos corpos venha a se tornar tão comum quanto
+aparelhos celulares são hoje. Em que pesem os argumentos de mercado para defender
+o uso de sistemas restritos em aplicações desse tipo, 
+é preciso discutir onde o hardware livre pode
 encaixar-se nesse contexto, propondo soluções novas e abertas para toda
 sociedade.
 
 Os desafios são enormes no que diz respeito ao ambiente de desenvolvimento e à
-criação de hardware livre. No entanto, a busca pela consolidação do hardware livre é uma extensão lógica do movimento pelo software livre. As discussões e os trabalhos
+criação de hardware livre. No entanto, a busca pela consolidação do hardware livre
+é uma extensão lógica do movimento pelo software livre. As discussões e os trabalhos
 estão apenas começando, existe muita coisa para se construir e muita para
 ajudar a melhorar; um prato cheio para
 desenvolvedores ávidos por colaborar e resolver os problemas da sociedade do futuro.
